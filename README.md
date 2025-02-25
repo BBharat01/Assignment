@@ -18,6 +18,7 @@ Take home test
   * curl -X POST "http://localhost:8080/ledger/withdraw?amount=50"
   * curl -X GET "http://localhost:8080/ledger/balance"
   * curl -X GET "http://localhost:8080/ledger/history"
+* It uses H2 database to store the trabsactions
  
 
 
